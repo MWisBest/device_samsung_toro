@@ -47,7 +47,10 @@
 # 551245 = JDP82
 # 573038 = JDQ39
 # end jb-mr1.1-dev
-BRANCH=jb-mr1.1-dev
+# start jb-mr2-dev
+# 681336 = JWR50
+# end jb-mr2-dev
+BRANCH=jb-mr2-dev
 if test $BRANCH = ics-mr1
 then
   ZIP=mysid-ota-299849.zip
@@ -68,6 +71,11 @@ then
   ZIP=mysid-ota-573038
   BUILD=jdq39
 fi # jb-mr1.1-dev
+if test $BRANCH = jb-mr2-dev
+then
+  ZIP=mysid-ota-681336
+  BUILD=jwr50
+fi # jb-mr2ev
 ROOTDEVICE=toro
 DEVICE=toro
 MANUFACTURER=samsung
