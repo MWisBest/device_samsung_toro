@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Copyright (C) 2010 The Android Open Source Project
+# Copyright 2010 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -49,6 +49,7 @@
 # end jb-mr1.1-dev
 # start jb-mr2-dev
 # 681336 = JWR50
+# 683083 = JWR51
 # end jb-mr2-dev
 BRANCH=jb-mr2-dev
 if test $BRANCH = ics-mr1
@@ -73,8 +74,8 @@ then
 fi # jb-mr1.1-dev
 if test $BRANCH = jb-mr2-dev
 then
-  ZIP=mysid-ota-681336
-  BUILD=jwr50
+  ZIP=mysid-ota-683083
+  BUILD=jwr51
 fi # jb-mr2ev
 ROOTDEVICE=toro
 DEVICE=toro
