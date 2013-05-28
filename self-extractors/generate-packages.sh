@@ -52,6 +52,7 @@
 # 683083 = JWR51
 # 684634 = JWR52
 # 686185 = JWR53
+# 689345 = JWR58
 # end jb-mr2-dev
 BRANCH=jb-mr2-dev
 if test $BRANCH = ics-mr1
@@ -76,8 +77,8 @@ then
 fi # jb-mr1.1-dev
 if test $BRANCH = jb-mr2-dev
 then
-  ZIP=mysid-ota-686185
-  BUILD=jwr53
+  ZIP=mysid-ota-689345
+  BUILD=jwr58
 fi # jb-mr2ev
 ROOTDEVICE=toro
 DEVICE=toro
