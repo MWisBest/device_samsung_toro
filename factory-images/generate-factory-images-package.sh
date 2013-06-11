@@ -25,13 +25,14 @@
 # 683083 = JWR51
 # 689345 = JWR58
 # 690834 = JWR59
+# 704243 = JWR59
 
 source ../../../common/clear-factory-images-variables.sh
 PRODUCT=mysid
 DEVICE=toro
-BUILD=690834
-VERSION=jwr59
-#SRCPREFIX=signed-
+BUILD=704243
+VERSION=jwr66g
+SRCPREFIX=signed-
 BOOTLOADER=primemd04
 RADIO=i515.fk02
 CDMARADIO=i515.fk01
