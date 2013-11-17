@@ -29,13 +29,5 @@
         <item>"7"</item>
         <item>"4"</item>
     </string-array>
-
-    <string-array name="enabled_networks_cdma_choices" translatable="false">
-        <item>LTE</item>
-        <item>3G</item>
-    </string-array>
-    <string-array name="enabled_networks_cdma_values" translatable="false">
-        <item>"7"</item>
-        <item>"4"</item>
-    </string-array>
 </resources>
+
