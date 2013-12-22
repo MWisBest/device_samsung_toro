@@ -19,6 +19,9 @@ ro.ril.ecclist=112,911,#911,*911
 # Default to LTE/CDMA Network Mode
 ro.telephony.default_network=7
 
+# Set CDMA SUBSCRIPTION SOURCE to RUIM in Database for this device
+ro.telephony.default_cdma_sub=0
+
 # hardware info
 ro.device.chipset=TI OMAP 4460
 ro.device.cpu=1.2GHz dual-core Cortex-A9
